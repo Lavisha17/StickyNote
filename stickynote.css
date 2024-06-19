@@ -1,0 +1,124 @@
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+	background-color: #F7EAEC;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 2px black solid;
+	width: 700px;
+	height: auto;
+}
+
+#create {
+	border-radius: 50px;
+	width: 45px;
+	height: 45px;
+	background-color: #7CA8A5;
+	color: black;
+}
+
+#create:hover {
+	background-color: rgb(130, 125, 125);
+	font-size: larger;
+	color: white;
+	width: 60px;
+	height: 60px;
+}
+
+#create:focus {
+	outline-color: transparent;
+	outline-style: solid;
+	box-shadow: 0 0 0 4px #050505;
+}
+
+.note-container {
+	background-color: #F3F2A2;
+	display: block;
+	margin: 10px;
+	justify-content: center;
+	border: 2px black solid;
+	width: 270px;
+	height: 300px;
+}
+
+.note {
+	background-color: #8e8b8b;
+	padding: 10px;
+	margin: 10px;
+	width: 270px;
+	height: 300px;
+	justify-content: center;
+	border: 2px black solid;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#add {
+	border-radius: 5px;
+	background-color: #B0D89F;
+	border-color: transparent;
+	width: 75px;
+}
+
+.note:hover {
+	background-color: #DCD6D6;
+}
+
+#add:hover {
+	background-color: #4DAF27;
+	color: white;
+}
+
+#title {
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-color: transparent;
+	text-align: center;
+}
+
+#description {
+	margin-bottom: 10px;
+	border-radius: 11px;
+	border-color: transparent;
+	text-align: center;
+}
+
+#edit-btn{
+	border-radius: 5px;
+	background-color: #CCEDEE;
+	border-color: transparent;
+	width: 55px;
+}
+
+#edit-btn:hover {
+	background-color: #4B45F6;
+	color: white;
+}
+
+#delete-btn {
+	border-radius: 5px;
+	background-color: #F0A2A3;
+	border-color: transparent;
+	width: 55px;
+}
+
+#delete-btn:hover {
+	background-color: #F31B1D;
+	color: white;
+}
+
+#pin-btn {
+	background-color: #F8CE8E;
+	border-radius: 5px;
+	border-color: transparent;
+	width: 55px;
+}
+
+#pin-btn:hover {
+	background-color: #F39705;
+	color: white;
+}
